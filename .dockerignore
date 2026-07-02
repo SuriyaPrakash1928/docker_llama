@@ -1,0 +1,13 @@
+# Ignore the heavy AI model files
+models/
+*.gguf
+
+# Ignore Docker's own files
+.dockerignore
+Dockerfile
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
